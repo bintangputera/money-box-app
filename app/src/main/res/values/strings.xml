@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Money Box</string>
+    <string name="label_spirit">Yuk Semangat Menabungnya</string>
+    <string name="label_nominal">Nominal</string>
+    <string name="label_category">Kategori</string>
+    <string name="label_date">Tanggal</string>
+    <string name="menu_wallet">Dompet</string>
+    <string name="menu_home">Beranda</string>
+    <string name="label_money_records">Catatan Keuangan</string>
+    <string name="label_balance">Tabungan</string>
+    <string name="label_expenses">Pengeluaran</string>
+    <string name="label_income">Pemasukan</string>
+    <string name="label_wallet">Dompet</string>
+</resources>

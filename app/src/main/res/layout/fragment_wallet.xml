@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvLabelWallet"
+        android:text="@string/label_wallet"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvLabelTotalBalance"
+        android:text="Total Tabungan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@id/tvLabelWallet"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelWallet"/>
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="@id/tvLabelTotalBalance"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelTotalBalance"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
